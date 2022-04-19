@@ -1,13 +1,6 @@
 name: Lint Continuous Integration
 
-on:
-  push:
-    paths:
-      - 'packages/eslint-config-ferns/**'
-
-defaults:
-  run:
-    working-directory: packages/eslint-config-ferns
+on: [push]
 
 jobs:
   test:
