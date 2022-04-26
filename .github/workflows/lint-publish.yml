@@ -27,7 +27,7 @@ jobs:
         run: yarn install --frozen-lockfile
       # set up git since we will later push to the repo
       - run: git config --global user.name "GitHub CD bot"
-      - run: git config --global user.email "github-cd-bot@nang.io"
+      - run: git config --global user.email "github-cd-bot@flourish.health"
       # upgrade npm version in package.json to the tag used in the release.
       - run: npm version ${{ github.event.release.tag_name }}
       # publish to NPM -> there is one caveat, continue reading for the fix

@@ -266,8 +266,13 @@ module.exports = {
 
     "react-native/no-color-literals": "off",
 
-    // Sometimes we have other, non-Text components
-    "react-native/no-raw-text": "warn",
+    // Text covers both our new Text component and the original, plus our new Heading component.
+    "react-native/no-raw-text": [
+      2,
+      {
+        skip: ["Text", "Heading"],
+      },
+    ],
 
     "react-native/no-single-element-style-arrays": 2,
   },
