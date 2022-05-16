@@ -8,9 +8,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  env: {
-    "react-native/react-native": true,
-  },
   plugins: [
     "import",
     "prettier",
@@ -23,7 +20,6 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
   ],
   rules: {
