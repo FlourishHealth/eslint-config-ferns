@@ -8,6 +8,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
+  env: {
+    "react-native/react-native": true,
+  },
   plugins: [
     "import",
     "prettier",
