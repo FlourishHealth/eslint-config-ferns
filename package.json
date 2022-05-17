@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshgachnang/eslint-fullstack.git"
+    "url": "git+https://github.com/FlourishHealth/eslint-config-ferns.git"
   },
   "keywords": [
     "eslint",
@@ -26,9 +26,9 @@
   "author": "Josh Gachnang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshgachnang/eslint-fullstack/issues"
+    "url": "https://github.com/FlourishHealth/eslint-config-ferns/issues"
   },
-  "homepage": "https://github.com/joshgachnang/eslint-fullstack#readme",
+  "homepage": "https://github.com/FlourishHealth/eslint-config-ferns#readme",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
