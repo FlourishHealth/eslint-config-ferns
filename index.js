@@ -18,6 +18,7 @@ module.exports = {
     "simple-import-sort",
     "react",
     "react-native",
+    "react-hooks",
     "@typescript-eslint",
   ],
   extends: [
@@ -274,6 +275,10 @@ module.exports = {
     ],
 
     "react-native/no-single-element-style-arrays": 2,
+
+    /* React Hooks */
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
   },
 };
 
