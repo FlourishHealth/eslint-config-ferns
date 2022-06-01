@@ -15,6 +15,7 @@ Install the config and its peer dependencies:
       eslint-plugin-prettier@^4.0.0 \
       eslint-plugin-react@^7.29.4 \
       eslint-plugin-react-native@^4.0.0 \
+      eslint-plugin-react-hooks@^4.5.0 \
       eslint-plugin-simple-import-sort@^7.0.0 \
       prettier@^2.6.2 \
       typescript@~4.1.5
