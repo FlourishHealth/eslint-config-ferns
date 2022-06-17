@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "lint": "eslint index.js",
+    "lintfix": "eslint --fix index.js",
     "deps": "node checkDeps.js"
   },
   "exports": {
