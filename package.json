@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ferns",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "An eslint and prettier set up for fullstack dev: Typescript, Node, React, and React Native.",
   "main": "index.js",
   "scripts": {
