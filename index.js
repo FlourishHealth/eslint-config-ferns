@@ -279,11 +279,11 @@ module.exports = {
 
     "react-native/no-color-literals": "off",
 
-    // Text covers both our new Text component and the original, plus our new Heading component.
+    // Text covers both our new Text component and the original, our Link component, and our Heading component.
     "react-native/no-raw-text": [
       2,
       {
-        skip: ["Text", "Heading"],
+        skip: ["Text", "Link", "Heading"],
       },
     ],
 
