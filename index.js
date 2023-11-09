@@ -292,6 +292,7 @@ module.exports = {
     /* React Hooks */
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
     "react-hooks/exhaustive-deps": "error", // Checks effect dependencies
+    "no-constant-binary-expression": "error", // Checks for logic errors in boolean expressions, see https://eslint.org/blog/2022/07/interesting-bugs-caught-by-no-constant-binary-expression/
   },
 };
 
