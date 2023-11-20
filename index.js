@@ -35,8 +35,9 @@ module.exports = {
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-require": "off",
-    // Intelligently sort imports
+    // Intelligently sort imports and exports
     "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
 
     // Just disable console.log.
     "no-console": [
