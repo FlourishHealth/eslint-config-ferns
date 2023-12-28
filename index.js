@@ -295,20 +295,14 @@ module.exports = {
     "react-hooks/exhaustive-deps": "error", // Checks effect dependencies
     "no-constant-binary-expression": "error", // Checks for logic errors in boolean expressions, see https://eslint.org/blog/2022/07/interesting-bugs-caught-by-no-constant-binary-expression/
 
-    /* Prevent un-awaited promises from being ignored. */
-    "@typescript-eslint/no-floating-promises": [
-      "error",
-      {
-        ignoreIIFE: true,
-        ignoreVoid: true,
-      },
-    ],
-    "@typescript-eslint/no-misused-promises": [
-      "error",
-      {
-        checksVoidReturn: false,
-      },
-    ],
+    /* Use named exports wherever possible */
+    "import/no-default-export": "error",
+
+    /* Enforce permformance best practices */
+    "react-perf/jsx-no-new-object-as-prop": "error",
+    "react-perf/jsx-no-new-array-as-prop": "error",
+    "react-perf/jsx-no-new-function-as-prop": "error",
+    "react-perf/jsx-no-jsx-as-prop": "error",
   },
 };
 
