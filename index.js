@@ -298,11 +298,35 @@ module.exports = {
     /* Use named exports wherever possible */
     "import/no-default-export": "error",
 
-    /* Enforce permformance best practices */
+    /* Enforce performance best practices */
     "react-perf/jsx-no-new-object-as-prop": "error",
     "react-perf/jsx-no-new-array-as-prop": "error",
     "react-perf/jsx-no-new-function-as-prop": "error",
     "react-perf/jsx-no-jsx-as-prop": "error",
+
+    /* Enforce max comment lengths */
+    "comment-length/limit-single-line-comments": [
+      "warn",
+      {
+        mode: "compact-on-overflow",
+        maxLength: 100,
+        logicalWrap: true,
+        ignoreUrls: true,
+        ignoreCommentsWithCode: true,
+        tabSize: 2,
+      },
+    ],
+    "comment-length/limit-multi-line-comments": [
+      "warn",
+      {
+        mode: "compact-on-overflow",
+        maxLength: 100,
+        logicalWrap: true,
+        ignoreUrls: true,
+        ignoreCommentsWithCode: true,
+        tabSize: 2,
+      },
+    ],
   },
 };
 
