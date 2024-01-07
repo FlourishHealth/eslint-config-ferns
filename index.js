@@ -20,6 +20,7 @@ module.exports = {
     "react",
     "react-native",
     "react-hooks",
+    "react-perf",
     "@typescript-eslint",
   ],
   extends: [
@@ -298,11 +299,11 @@ module.exports = {
     /* Use named exports wherever possible */
     "import/no-default-export": "error",
 
-    /* Enforce performance best practices */
-    "react-perf/jsx-no-new-object-as-prop": "error",
-    "react-perf/jsx-no-new-array-as-prop": "error",
-    "react-perf/jsx-no-new-function-as-prop": "error",
-    "react-perf/jsx-no-jsx-as-prop": "error",
+    /* Enforce performance best practices (not enabled yed) */
+    "react-perf/jsx-no-new-object-as-prop": "off",
+    "react-perf/jsx-no-new-array-as-prop": "off",
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    "react-perf/jsx-no-jsx-as-prop": "off",
 
     /* Enforce max comment lengths */
     "comment-length/limit-single-line-comments": [
