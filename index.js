@@ -1,3 +1,6 @@
+const useEffectComment = require("./rules/use-effect-comment");
+const requireSuperagentExpect = require("./rules/require-superagent-expect");
+
 // eslint-disable-next-line no-undef
 module.exports = {
   parser: "@typescript-eslint/parser",
@@ -328,6 +331,10 @@ module.exports = {
         tabSize: 2,
       },
     ],
+
+    // Custom rules
+    "use-effect-comment": useEffectComment,
+    "require-superagent-expect": requireSuperagentExpect,
   },
 };
 
